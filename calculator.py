@@ -10,3 +10,9 @@ elif op=="*":
 elif op=="/":
     result=num1/num2
 print("Result =",result)
+if result<0:
+    print("Negative")
+elif result>0:
+    print("Positive")
+else:
+    print("Zero")
